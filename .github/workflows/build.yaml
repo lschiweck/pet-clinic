@@ -24,4 +24,4 @@ jobs:
       run: |
         #### AUFGABE 3 COMPILE, DOCKER BUILD UND PUSH
       mvn package
-      docker build --tag pet-clinic:latest -f Dockerfile
+      docker build --tag pet-clinic:latest -f Dockerfile .
